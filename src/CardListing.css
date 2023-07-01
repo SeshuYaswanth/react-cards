@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.card-listing {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.card-type {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: red;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.card-details h3 {
+  margin-top: 0;
+}
+
+.card-details p {
+  margin-bottom: 10px;
+}
+
+.card-financials {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.card-financials p {
+  margin: 5px 0;
+}
+
+.card-financials .balance {
+  color: green;
+}
+
+.card-financials .balance-negative {
+  color: red;
+}
+
+.card-details p:nth-child(2)::before {
+  content: "Budget:";
+  font-weight: bold;
+}
+
+.card-details p:nth-child(3)::before {
+  content: "Amount: ";
+  font-weight: bold;
+}
+
+.card-details p:nth-child(4)::before {
+  content: "Frequency:";
+  font-weight: bold;
+}
+
+.card-details p:nth-child(5)::before {
+  content: "Limit: ";
+  font-weight: bold;
+}

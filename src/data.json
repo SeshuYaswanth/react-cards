@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "name": "Linkedin",
+      "budget_name": "Software subscription",
+      "owner_id": 1,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "subscription",
+      "expiry": "21 July 2021",
+      "limit": 100,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    },
+    {
+      "name": "Marketing ads",
+      "budget_name": "Software subscription",
+      "owner_id": 2,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "subscription",
+      "limit": 10,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    },
+    {
+      "name": "Offsite event",
+      "budget_name": "Software subscription",
+      "owner_id": 3,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "burner",
+      "expiry": "21 July 2021",
+      "limit": 100,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    },
+    {
+      "name": "Travel allowance",
+      "budget_name": "Software subscription",
+      "owner_id": 4,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "burner",
+      "expiry": "21 July 2021",
+      "limit": 100,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    },
+    {
+      "name": "AWS card",
+      "budget_name": "Software subscription",
+      "owner_id": 3,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "burner",
+      "expiry": "21 July 2021",
+      "limit": 100,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    },
+    {
+      "name": "Netflix",
+      "budget_name": "Software subscription",
+      "owner_id": 3,
+      "spent": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "available_to_spend": {
+        "value": 7890,
+        "currency": "SGD"
+      },
+      "card_type": "burner",
+      "expiry": "21 July 2021",
+      "limit": 100,
+      "status": "active",
+      "frequency": "monthly",
+      "Amount": 300
+    }
+  ],
+  "page": 1,
+  "per_page": 10,
+  "total": 100
+}
